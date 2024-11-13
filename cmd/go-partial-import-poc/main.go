@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.com/mark-p-marton/go-partial-import-poc/internal/server"
+	"github.com/markpmarton/go-partial-import-poc/internal/server"
 )
 
 func main() {

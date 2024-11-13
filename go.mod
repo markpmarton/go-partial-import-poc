@@ -1,4 +1,4 @@
-module gitlab.com/mark-p-marton/go-partial-import-poc
+module github.com/markpmarton/go-partial-import-poc
 
 go 1.23.2
 

@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	"gitlab.com/mark-p-marton/go-partial-import-poc/pkg/proto/sampleproto"
+	"github.com/markpmarton/go-partial-import-poc/pkg/proto/sampleproto"
 	"google.golang.org/grpc"
 )
 
