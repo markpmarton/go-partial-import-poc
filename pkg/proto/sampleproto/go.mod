@@ -1,4 +1,4 @@
-module gitlab.com/mark-p-marton/go-partial-import-poc/pkg/proto/sampleproto
+module github.com/markpmarton/go-partial-import-poc/pkg/proto/sampleproto
 
 go 1.23.3
 
