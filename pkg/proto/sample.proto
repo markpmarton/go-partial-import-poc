@@ -1,0 +1,15 @@
+syntax = "proto3";
+package protos;
+option go_package = "gitlab.com/mark-p-marton/go-partial-import-poc/sampleproto";
+
+message SampleEvent {
+  bytes content = 1;
+}
+
+message SampleEventReponse {
+    bool status = 1;
+  }
+
+service SampleService {
+    rpc ReceiveSampleEvent(SampleEvent) returns (SampleEventReponse) {}
+  }
